@@ -28,7 +28,7 @@ jobs:
         with:
           node version: '18' 
 
-      - name: isntall npm dependencies and build fronted 
+      - name: install npm dependencies and build fronted 
         run: 
           npm install
           npm run build 
